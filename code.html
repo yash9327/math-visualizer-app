@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Concept Visualizer</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- p5.js Library for drawing -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Math Concept Visualizer</h1>
+        <div class="theme-switcher">
+            <label for="theme-toggle">Dark Mode</label>
+            <input type="checkbox" id="theme-toggle">
+        </div>
+    </header>
+
+    <nav>
+        <h2>Select a Topic</h2>
+        <div class="topic-buttons">
+            <button class="topic-btn" data-topic="trigonometry">Trigonometry</button>
+            <button class="topic-btn" data-topic="linear-equation">Linear Equations</button>
+            <!-- Add more buttons here as you create more visualizers -->
+        </div>
+    </nav>
+
+    <main id="visualizer-container">
+        <div class="placeholder">
+            <h2>Welcome! 👋</h2>
+            <p>Select a topic above to start learning with interactive visuals.</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Math Concept Visualizer. Made for students.</p>
+    </footer>
+
+    <!-- Main App Script -->
+    <script src="script.js"></script>
+</body>
+</html>
